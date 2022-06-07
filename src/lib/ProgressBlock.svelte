@@ -1,3 +1,4 @@
 <script>
+  import { fade } from 'svelte/transition'
 </script>
-<div class="bg-blue-500 p-2"></div>
+<div transition:fade class="bg-blue-500 p-2"></div>
