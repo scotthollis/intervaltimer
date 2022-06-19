@@ -20,7 +20,7 @@
     if((index % 2 == 0) && countDown === 0){
       countDown = 30
       countDownColor = 'text-green-600'
-      borderColor = 'border-slate-500'
+      borderColor = 'border-green-500'
       index++
     }
     else if(countDown === 0){
@@ -29,6 +29,9 @@
       countDownColor = 'text-yellow-600'
       borderColor = 'border-yellow-500'
       index++
+    }
+    else if(index === 1){
+      borderColor = 'border-green-500'
     }
   }
 </script>
